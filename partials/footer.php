@@ -1,18 +1,17 @@
     <footer class="footer container-fluid px-0">
         <hr class="container-fluid my-0">
         <div class="row">
-            <div class="col-8 mx-2 my-2 py-3 px-4">
+            <div class="col-8 ml-5 my-2 py-3 px-4">
                 <h4 class="">Offrez-vous l’authenticité de Montchat et la convivialité de Monplaisir </h4>
                 <h5>Entre Montchat et Monplaisir, pourquoi choisir quand une adresse <br> réunit toutes les qualités de deux des secteurs les plus prisés de Lyon !</h5>
             </div>
             <div class="col-3 text-center my-2 ml-3 py-2">
                 <h3>04 78 62 02 00</h3>
                 <p>batilyonpromotion.fr</p>
-                <div class="logoBati col-7 text-uppercase text-center mx-auto">
-                    <p class="mt-2">bati-lyon</p>
-                    <p class="mb-2">promotion</p>
+                <div class="logoBati col-7 text-center mx-auto">
+                    <img src="assets/img/LogoBati2.png" alt="Logo de Bati-Lyon" class="my-2">
                 </div>
-                <p class="col-7 text-uppercase text-center mx-auto">bâtisseurs d'avenir</p>
+                <p class="batisseur text-uppercase text-center mt-1">bâtisseurs d'avenir</p>
             </div>
         </div>
     </footer>

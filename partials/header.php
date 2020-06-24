@@ -21,7 +21,7 @@
                 <img src="assets/img/LogoMajestic.svg" alt="Logo graphique Majestic" class="m py-2">
                 <img src="assets/img/TextMajestic.svg" alt="Logo texte Majestic" class="py-2">
             </div>
-            <div class="col-7 mx-2 my-2 py-3">
+            <div class="mx-5 my-3 py-3">
                 <h2 class="text-uppercase">prochainement à lyon 3<sup class="text-lowercase">e</sup></h2>
                 <h3>25 appartements de standing dans une résidence intimiste</h3>
             </div>

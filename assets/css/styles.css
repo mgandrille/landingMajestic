@@ -25,7 +25,7 @@
 
 body {
     min-height: 100vh;
-    font-family: 'Akrobat-Regular', Arial, sans-serif;
+    font-family: 'Akrobat-Bold', Arial, sans-serif;
     margin: 0px;
 }
 
@@ -43,8 +43,25 @@ img {
 }
 
 h2 {
-    font-family: 'Akrobat-ExtraBold', Arial, sans-serif;
     color: #bc9856;
+}
+
+h3 {
+    font-family: "Akrobat-ExtraBold", Arial, sans-serif;
+    font-size: 1.5em;
+}
+
+h5 {
+    font-family: "Akrobat-SemiBold", Arial, sans-serif;
+}
+
+h6 {
+    font-family: "Akrobat-ExtraBold", Arial, sans-serif;
+    color: #00385b;
+}
+
+p {
+    font-family: "Akrobat-Regular", Arial, sans-serif;
 }
 
 hr {
@@ -52,8 +69,23 @@ hr {
     height: 20px;
 }
 
+.btn {
+    background-color: #bc9856;
+    color: white;
+    width: 100%;
+}
+
+.form-control {
+    background-color: #00385b;
+    color: white;
+}
+
+input::placeholder {
+    color: white;
+}
+
 #photo {
-    height: 58vh;
+    min-height: 60vh;
     background: url(../img/BALTHAZAR_V4.jpg) 50% 35%;
     background-color: #00385b;
     background-blend-mode: overlay;
@@ -64,12 +96,16 @@ hr {
     height: 60%;
 }
 
-.formulaire {
-    color: #00385b;
-}
-
 .logoBati {
     color: #00385b;
     background-color: white;
-    border-radius: 15px;
+    border-radius: 10px;
+}
+
+.logoBati img {
+    width: 70%;
+}
+
+.batisseur {
+    font-size: small;
 }
