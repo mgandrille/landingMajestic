@@ -24,7 +24,7 @@ if(isset($_POST['telephone']) && ctype_alnum($_POST['telephone'])) {
 // Actions à effectuer en fonction de la validation du formulaire
 
 if($nomValide && $prenomValide && $emailValide && $telValide) {
-    $_SESSION['form_error'] = false;
+    $_SESSION['form_valid'] = true;
     $to = "mail@mail.fr";
     $object = "Récupération des données pour le Majestic";
     $message =  "Nom : " . $_POST['nom'] . " / Prénom : " . $_POST['prenom'] .

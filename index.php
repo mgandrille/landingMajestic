@@ -1,6 +1,5 @@
 <?php
 session_start();
-
 var_dump($_SESSION);
 ?>
 
@@ -16,11 +15,10 @@ var_dump($_SESSION);
         </div>
         <div class="col-3 px-5 py-5">
             <div class="my-4">
-                <?php if (isset($_SESSION['form_error']) &&  $_SESSION['form_error'] === true) {
-                    unset($_SESSION['form_error']); ?>
+                <?php if (isset($_SESSION['form_error']) &&  $_SESSION['form_error'] === true) { ?>
                     <p class="lead text-danger">Une erreur est survenue à l'envoi du formulaire.</p>
                 <?php }
-                else { ?>
+                if (isset($_SESSION['form_valid']) &&  $_SESSION['form_valid'] === true) { ?>
                     <p class="lead text-success">Votre inscription a bien été enregistrée !</p>
                 <?php } ?>
                 <h6 class="text-wrap">Pour être informé en avant-première <br> Inscrivez-vous dès maintenant :</h6>
