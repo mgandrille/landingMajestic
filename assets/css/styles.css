@@ -1,0 +1,75 @@
+/* FONT DEDIEE */
+
+@font-face {
+    font-family: "Akrobat-Regular";
+    src: url("../fonts/Akrobat-Regular.otf") format("otf"),
+}
+@font-face {
+    font-family: "Akrobat-Bold";
+    src: url("../fonts/Akrobat-Bold.otf") format("otf"),
+}
+@font-face {
+    font-family: "Akrobat-SemiBold";
+    src: url("../fonts/Akrobat-SemiBold.otf") format("otf");
+}
+@font-face {
+    font-family: "Akrobat-ExtraBold";
+    src: url("../fonts/Akrobat-ExtraBold.otf") format("otf"),
+}
+
+/* STYLE GENERAL */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Akrobat-Regular', Arial, sans-serif;
+    margin: 0px;
+}
+
+img {
+    width: 100%;
+}
+
+.header, .footer {
+    background-color: #00385b;
+    color: white;
+}
+
+.m {
+    width: 50%;
+}
+
+h2 {
+    font-family: 'Akrobat-ExtraBold', Arial, sans-serif;
+    color: #bc9856;
+}
+
+hr {
+    background-color: #bc9856;
+    height: 20px;
+}
+
+#photo {
+    height: 58vh;
+    background: url(../img/BALTHAZAR_V4.jpg) 50% 35%;
+    background-color: #00385b;
+    background-blend-mode: overlay;
+}
+
+.logo {
+    width: 60%;
+    height: 60%;
+}
+
+.formulaire {
+    color: #00385b;
+}
+
+.logoBati {
+    color: #00385b;
+    background-color: white;
+    border-radius: 15px;
+}
