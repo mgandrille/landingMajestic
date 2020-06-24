@@ -25,19 +25,24 @@ if(isset($_POST['telephone']) && ctype_alnum($_POST['telephone'])) {
 
 if($nomValide && $prenomValide && $emailValide && $telValide) {
     $_SESSION['form_valid'] = true;
+
     $to = "mail@mail.fr";
+
     $object = "Récupération des données pour le Majestic";
-    $message =  "Nom : " . $_POST['nom'] . " / Prénom : " . $_POST['prenom'] .
-                " / Email : " . $_POST['email'] . " / Téléphone : " . $_POST['telephone'] ;
-    mail($to, $subject, $message);
+
+    $message =  "Nom : " . $_POST['nom'];
+    $message .= " / Prénom : " . $_POST['prenom'];
+    $message .= " / Email : " . $_POST['email'];
+    $message .= " / Téléphone : " . $_POST['telephone'] ;
+
+    $send = mail($to, $subject, $message);
+
+    header('Location: index.php');
 }
 else {
     $_SESSION['form_error'] = true;
+    header('Location: index.php');
 }
-
-// retour sur la page d'accueil
-
-header('Location: index.php');
 
 
 ?>

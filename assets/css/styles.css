@@ -2,19 +2,27 @@
 
 @font-face {
     font-family: "Akrobat-Regular";
-    src: url("../fonts/Akrobat-Regular.otf") format("otf"),
+    src:    url('../fonts/Akrobat-Regular.otf') format("otf"),
+            url('../fonts/akrobat-regular-webfont.ttf') format("ttf"),
+            url('../fonts/akrobat-regular-webfont.woff') format("woff");
 }
 @font-face {
     font-family: "Akrobat-Bold";
-    src: url("../fonts/Akrobat-Bold.otf") format("otf"),
+    src:    url('../fonts/Akrobat-Bold.otf') format("otf"),
+            url('../fonts/akrobat-bold-webfont.ttf') format("ttf"),
+            url('../fonts/akrobat-bold-webfont.woff') format("woff");
 }
 @font-face {
     font-family: "Akrobat-SemiBold";
-    src: url("../fonts/Akrobat-SemiBold.otf") format("otf");
+    src:    url('../fonts/Akrobat-SemiBold.otf') format("otf"),
+            url('../fonts/akrobat-semibold-webfont.ttf') format("ttf"),
+            url('../fonts/akrobat-semibold-webfont.woff') format("woff");
 }
 @font-face {
     font-family: "Akrobat-ExtraBold";
-    src: url("../fonts/Akrobat-ExtraBold.otf") format("otf"),
+    src:    url('../fonts/Akrobat-ExtraBold.otf') format("otf"),
+            url('../fonts/akrobat-extrabold-webfont.ttf') format("ttf"),
+            url('../fonts/akrobat-extrabold-webfont.woff') format("woff");
 }
 
 /* STYLE GENERAL */
@@ -24,8 +32,7 @@
 }
 
 body {
-    min-height: 100vh;
-    font-family: 'Akrobat-Bold', Arial, sans-serif;
+    font-family: "Akrobat-Bold", Arial, sans-serif;
     margin: 0px;
 }
 
@@ -34,6 +41,7 @@ img {
 }
 
 .header, .footer {
+    font-family: "Akrobat-Bold", Arial, sans-serif;
     background-color: #00385b;
     color: white;
 }
@@ -44,12 +52,14 @@ img {
 
 h2 {
     color: #bc9856;
+    font-size: 3em;
 }
 
 h3 {
     font-family: "Akrobat-ExtraBold", Arial, sans-serif;
-    font-size: 1.5em;
+    font-size: 1.8em;
 }
+
 
 h5 {
     font-family: "Akrobat-SemiBold", Arial, sans-serif;
@@ -69,6 +79,10 @@ hr {
     height: 20px;
 }
 
+a {
+    color: white;
+}
+
 .btn {
     background-color: #bc9856;
     color: white;
@@ -80,15 +94,16 @@ hr {
     color: white;
 }
 
-input::placeholder {
+.form-control::placeholder {
     color: white;
+    opacity: 1;
 }
 
 #photo {
     min-height: 60vh;
-    background: url(../img/BALTHAZAR_V4.jpg) 50% 35%;
-    background-color: #00385b;
-    background-blend-mode: overlay;
+    background: url('../img/BALTHAZAR_V4.jpg') 50% 35%;
+    background-color: #00385bab;
+    background-blend-mode: soft-light;
 }
 
 .logo {
@@ -106,6 +121,3 @@ input::placeholder {
     width: 70%;
 }
 
-.batisseur {
-    font-size: small;
-}
