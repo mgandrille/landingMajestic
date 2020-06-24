@@ -16,8 +16,8 @@
 
 <header class="header container-fluid px-0">
     <div class="container">
-        <div class="row">
-            <div class="col-3 my-2 py-2 text-center">
+        <div class="row justify-content-center justify-content-md-start">
+            <div class="col-6 col-md-3 my-2 py-2 text-center">
                 <img src="assets/img/LogoMajestic.svg" alt="Logo graphique Majestic" class="m py-2">
                 <img src="assets/img/TextMajestic.svg" alt="Logo texte Majestic" class="py-2">
             </div>
