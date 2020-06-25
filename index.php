@@ -6,13 +6,13 @@ session_start();
 
 <main class="container-fluid px-0">
     <div class="row">
-        <div id="photo" class="col-md-9 d-flex align-items-center">
+        <div id="photo" class="col-lg-9 d-flex align-items-center">
             <div class="logo text-center mx-auto">
                 <img src="assets/img/LogoMajestic.svg" alt="Logo graphique Majestic" class="m py-2">
                 <img src="assets/img/TextMajestic.svg" alt="Logo texte Majestic" class="py-2">
             </div>
         </div>
-        <div class="col-md-3 px-5 py-5 justify-content-center">
+        <div class="col-lg-3 px-5 py-5 justify-content-center">
             <div class="my-4">
 
                 <?php if (isset($_SESSION['form_error']) &&  $_SESSION['form_error'] === true) {
