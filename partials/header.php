@@ -14,20 +14,21 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<header class="header container-fluid px-0">
-    <div class="container">
-        <div class="row justify-content-center justify-content-md-start">
-            <div class="col-6 col-md-3 my-2 py-2 text-center">
-                <img src="assets/img/LogoMajestic.svg" alt="Logo graphique Majestic" class="m py-2">
-                <img src="assets/img/TextMajestic.svg" alt="Logo texte Majestic" class="py-2">
-            </div>
-            <div class="text-center text-md-left mx-5 my-3 py-3">
-                <h2 class="text-uppercase">prochainement à lyon 3<sup class="text-lowercase">e</sup></h2>
-                <h3>25 appartements de standing dans une résidence intimiste</h3>
+<body>
+
+    <header class="header container-fluid px-0">
+        <div class="container">
+            <div class="row justify-content-center justify-content-lg-start">
+                <div class="col-6 col-lg-3 my-2 py-2 text-center">
+                    <img src="assets/img/LogoMajestic.svg" alt="Logo graphique Majestic" class="m py-2">
+                    <img src="assets/img/TextMajestic.svg" alt="Logo texte Majestic" class="py-2">
+                </div>
+                <div class="text-center text-lg-left mx-5 my-3 py-3">
+                    <h2 class="text-uppercase">prochainement à lyon 3<sup class="text-lowercase">e</sup></h2>
+                    <h3>25 appartements de standing dans une résidence intimiste</h3>
+                </div>
             </div>
         </div>
-    </div>
-    <hr class="container-fluid my-0">
-</header>
+        <hr class="container-fluid my-0">
+    </header>
 
-<body>
